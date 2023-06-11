@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "479682200442",
+    "project_id": "pfeapp-2f8b0",
+    "storage_bucket": "pfeapp-2f8b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479682200442:android:93586acac825abb600ccc3",
+        "android_client_info": {
+          "package_name": "com.example.pfev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479682200442-mrivqint9abuc0ie88bojr2k52mdbkgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pfev2",
+            "certificate_hash": "0cc60fc1e163ffd510fd29b7b495fe000bba2ad0"
+          }
+        },
+        {
+          "client_id": "479682200442-mb1m6npifj354rrmkd2e0r5ncdt50119.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0_6iyjbH8GH0upVrOZ1Mqt_pQkT6cyBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479682200442-mb1m6npifj354rrmkd2e0r5ncdt50119.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

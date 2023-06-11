@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tinker</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sing_in_to_continue">Sing in to continue</string>
+    <string name="you_email_com">you@email.com</string>
+    <string name="email">Email</string>
+    <string name="password_hint">***************</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sing_in">Sing In</string>
+    <string name="don_t_have_account">Don\'t have account ?</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="create_account">Create Account</string>
+    <string name="last_name">Prénom</string>
+    <string name="lastname">Prénom</string>
+    <string name="_9876543210">9876543210</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="mazel_makhemmtch">mazel makhemmtch</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="firstname">Nom</string>
+    <string name="first_name">Nom</string>
+    <string name="service">service</string>
+    <string name="welcome">welcome</string>
+    <string name="vous_tes">Vous êtes</string>
+    <string name="username_title">Username</string>
+    <string name="usernameP">"@Nom Prenom"</string>
+    <string name="phone_title">Phone</string>
+    <string name="phoneP">+000 00 000 000</string>
+    <string name="address_title">Address</string>
+    <string name="address">City, Street</string>
+    <string name="email_title">Email</string>
+    <string name="emailP">you@gmail.com</string>
+    <string name="full_name">full name</string>
+    <string name="nom">Nom</string>
+    <string name="nomx">Nom</string>
+    <string name="avis_et_ncommentaires">Avis et\ncommentaires</string>
+    <string name="profile">Profile</string>
+    <string name="se_d_connecter">se déconnecter</string>
+    <string name="modifier_le_profile">Modifier le profile</string>
+    <string name="ajouter_un_commentaire">ajouter un commentaire</string>
+    <string name="conntinuer">conntinuer</string>
+    <string name="pr_nom">prénom</string>
+    <string name="confermer">Confermer</string>
+
+
+</resources>

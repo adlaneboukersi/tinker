@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pfev2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstLogoActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".eventeActivity" />
+        <activity android:name=".ModifierInfoEmployeActivity" />
+        <activity android:name=".ModifierInfoClientActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".ListEmployeeCompletActivity" />
+        <activity android:name=".ItemEmployeeActivity" />
+        <activity android:name=".EmployeeInformationActivity" />
+        <activity android:name=".accueilEmployeeActivity" />
+        <activity android:name=".profilEmployeeActivity" />
+        <activity android:name=".accueilClientActivity" />
+        <activity android:name=".RecyclerView_config" />
+        <activity android:name=".profilClientActivity" />
+        <activity android:name=".SingUpEmployeeActivity" />
+        <activity android:name=".LoginEmployeeActivity" />
+        <activity android:name=".SingUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.Activity void onCreate(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.NonBlocking' />
+    </item>
+</root>

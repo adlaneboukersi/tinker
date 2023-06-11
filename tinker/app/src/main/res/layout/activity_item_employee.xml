@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/background_input"
+    tools:context=".ItemEmployeeActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageE"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/profileavatar" />
+    <LinearLayout
+        android:id="@+id/iditem"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:background="#F8F8F8"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/nomE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/wilayaE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wilaya Employe/domaine"
+            android:layout_marginLeft="7dp"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/ratingnbr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_star"
+            android:text="0"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
