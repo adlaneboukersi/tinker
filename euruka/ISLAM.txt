@@ -1,0 +1,5 @@
+ISL1,qui est le prophete ?,mouhamed
+ISL2,comment s'appele la premier femme du prophete ?,aicha
+ISL3,comment se nomme le pére du prophete ?,talib
+ISL4,qui est le dernier des kholafaa rachidin ?,alie
+ISL5,comment se nomme la grotte dans la quelle la koran est venu?,hirae

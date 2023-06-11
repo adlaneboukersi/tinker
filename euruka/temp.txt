@@ -1,0 +1,124 @@
+String rec=ad2.getText();
+			if(!partie_lancer.checkCaractère(rec.charAt(0),q))
+			{
+				//System.out.println(partie_lancer.checkCaractère(rec.charAt(0), q));
+				pot.incrémentEtat();
+				if(pot.etat<8)
+					pot.repaint();
+				else
+				{
+					ObjectOutputStream oos;
+					try {
+						partie_lancer.score=0;
+						
+						j.getPartiejeu().add(partie_lancer);
+						
+						
+						Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).partiejeu=j.getPartiejeu();
+						
+						oos = new ObjectOutputStream(new FileOutputStream("C://Users//ADMIN//Desktop//euruka//utilisateurs.ser"));
+						oos.writeObject(Euruka.dictionaire_de_joueur);
+						oos.close(); 
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					
+					
+					
+					 JFrame non= new JFrame("oups..");
+				    	non.setSize(280,200);
+				        non.getContentPane().setBackground(Color.GRAY);
+				       
+				        
+				        JButton ech = new JButton("ressayer");
+				        ech.setBounds(60, 120, 150, 25);
+				        ech.addActionListener(new ActionListener() {
+							
+							@Override
+							public void actionPerformed(ActionEvent e) {
+								// TODO Auto-generated method stub
+								
+								PageNiveaux x = new PageNiveaux(partie_lancer.theme_partie,j,partie_lancer.numero_partie+1,themes_initialise);
+							}
+						});
+				        JLabel echou = new JLabel("domage.. une autre fois");
+				        echou.setBounds(25,20, 200, 25);
+				        
+				        non.add(ech);
+				        non.add(echou);
+				        
+				        non.setLayout(new BorderLayout());
+				        non.setResizable(false);
+				        non.setVisible(true);
+				        non.setLocationRelativeTo(null);
+				}
+				
+			}else
+			{
+				ad5.setText(partie_lancer.reponse_en_cour.toString());
+				if(partie_lancer.reponse_en_cour.toString().equals(q.reponse))
+				{
+					System.out.println(partie_lancer.numero_partie);
+					//Ameliorer le niveau
+					
+					//changer le score de la partie
+					partie_lancer.score=q.getNBPoints();
+					
+					//recuperer la partie 
+					j.getPartiejeu().add(partie_lancer);
+					System.out.println(j.getTotalScore());
+					
+					try {
+						
+						/*File fichier = new File("C://Users//ADMIN//Desktop//euruka//utilisateurs.ser");
+						BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(fichier)));
+						String line = reader.readLine();
+						reader.close();*/
+					
+							Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).partiejeu=j.getPartiejeu();
+							if(q.niveau==Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).getNiv_atteint().get(partie_lancer.theme_partie.type));
+							{
+								Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).getNiv_atteint().replace(partie_lancer.theme_partie.type, 
+										Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).getNiv_atteint().get(partie_lancer.theme_partie.type), 
+										Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).getNiv_atteint().get(partie_lancer.theme_partie.type)+1);
+							}
+							Euruka.dictionaire_de_joueur.get(j.getNumero_joueur()).decrisToi();
+							ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C://Users//ADMIN//Desktop//euruka//utilisateurs.ser"));
+							oos.writeObject(Euruka.dictionaire_de_joueur);
+							oos.close();
+			
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					
+					
+					//affichage de la fenetre bravoo !
+					final JFrame ok = new JFrame("termine");
+			    	ok.setSize(500,300);
+			        ok.getContentPane().setBackground(Color.RED);
+			   
+			        
+			        JButton pas = new JButton("prochain niveau");
+			        pas.setBounds(60, 120, 150, 25);
+			        pas.addActionListener(new ActionListener() {
+						
+						@Override
+						public void actionPerformed(ActionEvent e) {
+							// TODO Auto-generated method stub
+							ok.dispose();
+							PageNiveaux x = new PageNiveaux(partie_lancer.theme_partie,j,partie_lancer.numero_partie+1,themes_initialise);
+						}
+					});
+			        JLabel dej = new JLabel("bravo chompion.. vous avez reuisie");
+			        dej.setBounds(25,20, 200, 25);
+			        ok.add(pas);
+			        ok.add(dej);
+			        ok.setLayout(new BorderLayout());
+			        ok.setResizable(false);
+			        ok.setVisible(true);
+			        ok.setLocationRelativeTo(null);
+				}
+				
+		}

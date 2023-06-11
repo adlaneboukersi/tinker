@@ -1,0 +1,15 @@
+CLT1,Quel celebre dictateur dirigea lURSS du milieu des annees 1920 à 1953 ?,staline
+CLT2,Dans quel pays peut-on trouver la Catalogne, l’Andalousie et la Castille ?,espagne
+CLT3,Qui a dit : « Le sort en est jeté » (Alea jacta est) ?,cesar
+CLT4,Quel pays a remporté la coupe du monde de football en 2014 ?,allemagne
+CLT5,Dans quelle ville italienne l’action de la pièce de Shakespeare « Roméo et Juliette » se situe-t-elle ?,verone
+CLT6,Quel est l’impératif du verbe feindre à la première personne du pluriel ?,feignons
+CLT7,Quel est le plus long fleuve coulant sur le territoire de la France ?,loire
+CLT8,Le drapeau russe est blanc et bleu et…?,rouge
+CLT9,Quel animal andin de la famille des camélidés est élevé pour sa laine ?,lama
+CLT10,Dans quel film Dark Vador déclare-t-il à Luke Skywalker : Je suis ton père ?,starwars
+CLT11,Quel race d’animal est un briard ?,chien
+CLT12,Où est né Mozart ?,salzbourg
+CLT13,Avec la laine de quel animal fait-on du cachemire ?,chevre
+CLT14,Quelle est la première ville du monde à s’être dotée d’un métro ?,londres
+CLT15,Quelle est la capitale de la Côte d’Ivoire ?,yamoussoukro

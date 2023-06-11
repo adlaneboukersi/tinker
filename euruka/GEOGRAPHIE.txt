@@ -1,0 +1,5 @@
+GEO1,win jaya tokbat adlan ?, sourse
+GEO2,win 3amo lhrarcha usmh ?, lwaade
+GEO3,3yina ya zabi ?, saahe 
+GEO4,tnakna gaa3 ?,kinami
+GEO5,wsh derna dok b corona ta3 zabi ?,tnaak 
